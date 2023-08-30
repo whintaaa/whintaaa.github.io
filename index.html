@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whinta || Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- boxicon css link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+<body>
+    <div class="overlay"></div>
+    <header>
+        <a href="#" class="logo"><span>W</span>hinta</a>
+        <ul class="navlist">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <section class="home" id="home">
+        <div class="hero-info">
+            <h3>Hello, This is my portfolio</h3>
+            <h1>I'm Whinta Virginia Putri</h1>
+
+            <div class="text-animate">
+                <h2>Web Developer and Graphic Designer</h2>
+            </div>
+
+            <div class="social-media">
+                <div class="bg-icon">
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <span></span>
+                </div>
+
+                <div class="bg-icon">
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <span></span>
+                </div>
+
+                <div class="bg-icon">
+                    <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="img-hero">
+            <img src="img/whinta.png" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/whinta.png" alt="" class="aboutHero">
+            <div class="showcase-ring">
+                <img src="shapes/ring.png" class="ring">
+                <img src="shapes/circle.png" class="circle">
+            </div>
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About Me</h2>
+            <p>I'm an Informatics Engineering Student at University of Trunojoyo Madura., have an interest in Web Development, and Data Analyst</p>
+            <div class="about-btn">
+                <button class="active">Experience</button>
+            </div>
+            <div class="content-btn">
+                <div class="content">
+                    <div class="text-box">
+                    <p>Staff of Information and Communication Division (KOMINFO)</p>
+                    <span>Mar to Dec 2022 <br>
+                        Searching and processing information then publish it.
+                        manage and develope UKM-FT EECOM social media (Instagram, Website, and Youtube)</span>
+                </div>
+                </div>
+            </div>
+            <div class="cvContent">
+                <a href="img/resume.pdf" target="_blank" class="btn d-CV">Download CV <i class='bx bx-download'></i></a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="portfolio" id="portfolio">
+        <div class="main-text">
+            <h2 class="heading">My Portofolio</h2>
+        </div>
+        <div class="fillter-buttons">
+            <button class="button" data-filter=".web">Web Development</button>
+            <button class="button" data-filter=".uiux">UI/UX Design</button>
+            <button class="button" data-filter=".branding">Graphic Design</button>
+        </div>
+
+        <div class="portfolio-gallery">
+
+            <div class="portfolio-box mix web">
+                <div class="portfolio-content">
+                    <h3>Web Development</h3>
+                    <p>Klik Explore More untuk melihat project:</p>
+                    <a href="img/Portoweb.pdf" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/1.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix uiux">
+                <div class="portfolio-content">
+                    <h3>UI/UX Design</h3>
+                    <p>Klik Explore More untuk melihat project:</p>
+                    <a href="img/PORTOUIUX.pdf" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/5.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix branding">
+                <div class="portfolio-content">
+                    <h3>Graphic Design</h3>
+                    <p>Klik Explore More untuk melihat project:</p>
+                    <a href="img/PORTOGD.pdf" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="services" id="services"> 
+        <div class="main-text">
+            <h2 class="heading">Skills</h2>
+            <span>berikut adalah skills yang saya kuasai:</span>
+        </div>
+
+        <div class="allServices">
+
+            <div class="servicesItem">
+                <div class="icon-services">
+                    <i class='bx bx-code-alt' ></i>
+                    <span></span>
+                </div>
+                <h3>Web Development</h3>
+                <p>CSS</p>
+                <p> PHP </p>
+                <P> Laravel</P>
+                <p>JavaScript</p>
+            </div>
+
+            <div class="servicesItem">
+                <div class="icon-services">
+                    <i class='bx bx-desktop' ></i>
+                    <span></span>
+                </div>
+                <h3>UI / UX Design</h3>
+                <p>Figma</p>
+            </div>
+
+            <div class="servicesItem">
+                <div class="icon-services">
+                    <i class='bx bxs-party' ></i>
+                    <span></span>
+                </div>
+                <h3>Graphic Design</h3>
+                <p> Canva </p>
+                <p>Corel Draw</p>
+            </div>
+            
+            <div class="servicesItem">
+                <div class="icon-services">
+                    <i class='bx bx-layer' ></i>
+                    <span></span>
+                </div>
+                <h3>Data Analyst</h3>
+                <p>Excel</p>
+                <p>Python</p>
+                <p>SQL</p>
+                <P>Power BI</P>
+            </div>
+        </div>
+
+
+        <div class="showcase">
+            <img src="shapes/ring.png" class="ring">
+            <img src="shapes/circle.png" class="circle">
+            <img src="shapes/circle.png" class="circle2">
+            <img src="shapes/circle.png" class="circle3">
+            <img src="shapes/half-ring.png" class="half-ring">
+        </div>
+    </section>
+
+
+    <section class="down-box" id="contact">
+        <div class="contactSkills">
+            <div class="contact-info">
+                <div class="main-text">
+                    <h2 class="heading">Contact Me</h2>
+                </div>
+                <form action="#">
+                    <input type="email" placeholder="whintavirginia.gmail.com" disabled>
+                    <input type="email" placeholder="+6282230968314" disabled>
+                </form>
+            </div>
+           
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright © 2023 by <span>Whinta</span> || All Right Reservd.</p>
+    </footer>
+
+    <div id="progress">
+        <span id="progress-value">
+            <i class='bx bxs-chevrons-up' ></i>
+        </span>
+    </div>
+
+    <!-- scroll reveal  -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Swiper JS -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- mixitup cdn js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
